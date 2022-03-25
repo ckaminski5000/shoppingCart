@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/shoppingCart/static/css/main.7c2e94d9.css",
+    "main.js": "/shoppingCart/static/js/main.71d1c19d.js",
+    "static/js/787.d6fe38e8.chunk.js": "/shoppingCart/static/js/787.d6fe38e8.chunk.js",
+    "static/media/stitch.png": "/shoppingCart/static/media/stitch.d22c87cae4e155efc3e8.png",
+    "static/media/minnie.png": "/shoppingCart/static/media/minnie.8c6c06543f9438d6545b.png",
+    "static/media/donald.png": "/shoppingCart/static/media/donald.89d42f6f0d6660b0e343.png",
+    "static/media/kermit.png": "/shoppingCart/static/media/kermit.c97a7807110c6d5bf798.png",
+    "static/media/piggy.png": "/shoppingCart/static/media/piggy.7691089844b78501de60.png",
+    "static/media/belle.png": "/shoppingCart/static/media/belle.bee32dfe9b8908ead7a8.png",
+    "static/media/tiggere.png": "/shoppingCart/static/media/tiggere.f21bdc7c1366a1e5ddce.png",
+    "static/media/daisy.png": "/shoppingCart/static/media/daisy.cf275aee95550a67ac49.png",
+    "static/media/chipmunk.png": "/shoppingCart/static/media/chipmunk.0434139c2b0c7d627ba6.png",
+    "static/media/pooh.png": "/shoppingCart/static/media/pooh.5b9a034fab9409beb9bd.png",
+    "static/media/piglet.png": "/shoppingCart/static/media/piglet.2a7525eb2c14c54cba65.png",
+    "static/media/bunny.png": "/shoppingCart/static/media/bunny.679fa9579294af4cfc92.png",
+    "static/media/disneyStore.svg": "/shoppingCart/static/media/disneyStore.c815b613e01ab7d60dc4aa4819b64cad.svg",
+    "static/media/logo.svg": "/shoppingCart/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/shoppingCart/index.html",
+    "main.7c2e94d9.css.map": "/shoppingCart/static/css/main.7c2e94d9.css.map",
+    "main.71d1c19d.js.map": "/shoppingCart/static/js/main.71d1c19d.js.map",
+    "787.d6fe38e8.chunk.js.map": "/shoppingCart/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c2e94d9.css",
+    "static/js/main.71d1c19d.js"
+  ]
+}
