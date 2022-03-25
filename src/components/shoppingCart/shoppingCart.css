@@ -1,0 +1,73 @@
+
+.colcol{
+    border-top: 1px solid gray;
+    flex: 1;
+}
+
+.cartImgcart{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 65px;
+   
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: right;
+    padding: 10px 100px 0px 0px;
+}
+
+.shopTitle{
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+div h1{
+    text-align: center;
+}
+
+.rowrow{
+    max-height: 150px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+
+}
+
+.quantity{
+    display: flex;
+    width: 200px;
+}
+
+.quantityInside{
+    flex: 1;
+}
+
+.productTitle{
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+.productPrice{
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+
+.cartBox{
+    padding: 15px;
+}
+
+.addMinus{
+    width: 30px;
+}
+
+.addMinusImg{
+    height: 17px;
+}
+
+.quantityInput{
+    width: 35px;
+    height: 29px;
+}
