@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Outlet } from 'react-router-dom';
 import {Container, Row, Col, Image, Button} from 'react-bootstrap';
 import plus from '../../images/plus.png';
 import './productPage.css';
@@ -8,7 +9,9 @@ export function ProductPage(props){
     const [quantity, setQuantity] = useState(1);
 
     return (
-        <Container>
+        <div>
+           
+             <Container>
             <Row>
                 <Col className="productImgBox" md={6} sm={12}><img className="productProfileImg" src={props.product.url} alt={props.product.title}/></Col>
                 <Col md={6} sm={12}> 
@@ -20,8 +23,10 @@ export function ProductPage(props){
                 </Col>
             </Row>
 
-
         </Container>
+        <Outlet />
+        </div>
+       
     
     
     
