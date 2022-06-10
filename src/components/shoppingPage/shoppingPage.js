@@ -7,9 +7,10 @@ import plus from "../../images/plus.png";
 
 export function ShoppingPage(props) {
   let productItems = props.products.map((product, index) => (
-    <Col md={3} sm={6} key={index}>
+    <Col md={3} sm={6} key={product.id}>
       <div className="productBox">
-        <Link onClick={() => props.setProductPage(product)} to="/product">
+        <Link onClick={() => props.setProductPage(product)} to={`/product/${product.id}`}
+>
           <Image
             className="productImg"
             src={product.url}
@@ -20,7 +21,7 @@ export function ShoppingPage(props) {
         <Link
           className="linkShop"
           onClick={() => props.setProductPage(product)}
-          to="/product"
+          to={`/product/${product.id}`}
         >
           <h2 className="title">
             Disney Nuimos <br /> {product.title}

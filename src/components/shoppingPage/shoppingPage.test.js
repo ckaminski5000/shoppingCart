@@ -22,4 +22,20 @@ describe('renders products to buys', () => {
         expect(linkElement).toBeInTheDocument();
     })
 
+    it('renders shopping Page component', () => {
+        const props = {
+            products: items,
+            handleClick: jest.fn(),
+            setProductPage: jest.fn()
+        };
+        const wrapper = ({children}) => {
+            return (
+            <HashRouter >
+                {children}
+            </HashRouter>);
+        }
+        render(<ShoppingPage {...props} />, {wrapper: wrapper});
+        screen.getByRole('');
+    })
+
 })
