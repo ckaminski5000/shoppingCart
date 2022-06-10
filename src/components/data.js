@@ -14,6 +14,7 @@ import tigger from "../images/tiggere.png";
 
 export const items = [ {
     title: "Belle",
+    id: 1,
     price: 21.99,
     url: belle,
     description:
@@ -21,6 +22,7 @@ export const items = [ {
   },
   {
     title: "Judy Hopps",
+    id: 2,
     price: 21.99,
     url: bunny,
     description:
@@ -28,6 +30,7 @@ export const items = [ {
   },
   {
     title: "Chip",
+    id: 3,
     price: 19.99,
     url: chipmunk,
     description:
@@ -35,6 +38,7 @@ export const items = [ {
   },
   {
     title: "Daisy Duck",
+    id: 4,
     price: 19.99,
     url: daisy,
     description:
@@ -42,6 +46,7 @@ export const items = [ {
   },
   {
     title: "Donald Duck",
+    id: 5,
     price: 19.99,
     url: donald,
     description:
@@ -49,6 +54,7 @@ export const items = [ {
   },
   {
     title: "Kermit the Frog",
+    id: 6,
     price: 19.99,
     url: kermit,
     description:
@@ -56,6 +62,7 @@ export const items = [ {
   },
   {
     title: "Minnie Mouse",
+    id: 7,
     price: 19.99,
     url: minnie,
     description:
@@ -63,6 +70,7 @@ export const items = [ {
   },
   {
     title: "Miss Piggy",
+    id: 8,
     price: 19.99,
     url: piggy,
     description:
@@ -70,6 +78,7 @@ export const items = [ {
   },
   {
     title: "Piglet",
+    id: 9,
     price: 9.98,
     url: piglet,
     description:
@@ -77,6 +86,7 @@ export const items = [ {
   },
   {
     title: "Pooh Bear",
+    id: 10,
     price: 19.99,
     url: pooh,
     description:
@@ -84,6 +94,7 @@ export const items = [ {
   },
   {
     title: "Stitch",
+    id: 11,
     price: 19.99,
     url: stitch,
     description:
@@ -91,6 +102,7 @@ export const items = [ {
   },
   {
     title: "Tigger the Tiger",
+    id: 12,
     price: 9.98,
     url: tigger,
     description:
