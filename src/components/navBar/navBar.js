@@ -5,11 +5,14 @@ import disneyStore from "../../images/disneyStore.svg";
 import cart from "../../images/cart.png";
 
 export function NavBar(props) {
+
+  
+
   return (
     <div>
       <nav>
         <div className="links shop">
-          <Link className="navLinks" to="/" exact>
+          <Link className="navLinks" to="/" exact="true">
             Shop
           </Link>
         </div>

@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
+import "./App.css";
 import { NavBar } from "./components/navBar/navBar";
 import { ShoppingPage } from "./components/shoppingPage/shoppingPage";
 import { ShoppingCart } from "./components/shoppingCart/shoppingCart";
@@ -8,6 +8,7 @@ import { useState } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { items } from "./components/data.js";
+import { useEffect } from "react";
 
 const RouteSwitch = () => {
   const [products, setProducts] = useState([...items]);
@@ -86,12 +87,16 @@ const RouteSwitch = () => {
     setCurrentProduct(itemToBeSet);
   };
 
+  useEffect(() => {
+    document.title = "React Shopping Cart"
+ }, []);
+
   return (
     <div>
       <NavBar quantity={quantity} />
       <Routes>
         <Route
-          exact
+          exact="true"
           path="/"
           element={
             <ShoppingPage
@@ -115,7 +120,6 @@ const RouteSwitch = () => {
               setProductPage={setProductPageContents}
               addQuantity={addQuantity}
               subtractQuantity={subtractQuantity}
-              setProductPage={setProductPageContents}
             />
           }
         />

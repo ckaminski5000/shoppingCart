@@ -16,7 +16,7 @@ This app is also mobile responsive, as it will display properly on mobile device
 ## Running The Project Locally
 
 **Live version:**
-[Click Here](https://ckaminski5000.github.io/shoppingCart/)
+[Click Here](https://shopping-cart-5000.herokuapp.com/)
 
 **From the repo:**
 
