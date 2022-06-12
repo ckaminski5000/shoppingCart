@@ -91,7 +91,7 @@ const RouteSwitch = () => {
       <NavBar quantity={quantity} />
       <Routes>
         <Route
-          exact
+          exact="true"
           path="/"
           element={
             <ShoppingPage

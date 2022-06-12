@@ -9,7 +9,7 @@ export function NavBar(props) {
     <div>
       <nav>
         <div className="links shop">
-          <Link className="navLinks" to="/" exact>
+          <Link className="navLinks" to="/" exact="true">
             Shop
           </Link>
         </div>
