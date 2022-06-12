@@ -3,8 +3,14 @@ import "./navBar.css";
 import { Link } from "react-router-dom";
 import disneyStore from "../../images/disneyStore.svg";
 import cart from "../../images/cart.png";
+import { useEffect } from "react";
 
 export function NavBar(props) {
+
+  useEffect(() => {
+    document.title = "React Shopping Cart"
+ }, []);
+
   return (
     <div>
       <nav>
