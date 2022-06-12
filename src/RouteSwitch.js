@@ -8,6 +8,7 @@ import { useState } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { items } from "./components/data.js";
+import { useEffect } from "react";
 
 const RouteSwitch = () => {
   const [products, setProducts] = useState([...items]);
@@ -85,6 +86,10 @@ const RouteSwitch = () => {
     console.log(itemToBeSet);
     setCurrentProduct(itemToBeSet);
   };
+
+  useEffect(() => {
+    document.title = "React Shopping Cart"
+ }, []);
 
   return (
     <div>

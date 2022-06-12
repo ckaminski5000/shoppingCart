@@ -7,9 +7,7 @@ import { useEffect } from "react";
 
 export function NavBar(props) {
 
-  useEffect(() => {
-    document.title = "React Shopping Cart"
- }, []);
+  
 
   return (
     <div>
